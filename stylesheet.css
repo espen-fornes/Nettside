@@ -1,0 +1,129 @@
+@font-face{
+	font-family: "abordage";
+	src: url(fonter/abordage-regular.otf) format(OpenType),
+		url(fonter/abordage-regular.ttf) format(TrueType),
+		url(fonter/abordage-regular.woff) format(Web Open Font Format),
+		url(fonter/abordage-regular.woff2) format(Web Open Font Format 2);
+	font-weight: normal;
+}
+@font-face{
+	font-family: "le-patin-helvete";
+	src: url(Le-patin-helvete.ttf) format(TrueType);
+	font-weight: normal;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: gainsboro;
+	/*background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+	/*	font-family: abordage,sans-serif;*/
+	font-family: sans-serif;
+}
+
+
+.konteiner{
+	width: 80%;
+	margin:auto;
+	margin-top:2rem;
+	margin-bottom: 4rem;
+
+}
+
+/*
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+elementer som divs
+*/
+
+nav{
+	position: sticky;
+	top:4rem;
+	left: 15%;
+	padding: 1rem;
+	width: 8rem;
+	
+	backdrop-filter: blur(0.5rem);
+	
+	line-height: 170%;
+
+	z-index: 97;
+	
+}
+
+nav a{
+	text-decoration: none;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+
+a:hover{
+	background-color: lavender;
+}
+
+
+
+.info{
+	width: auto;
+	height: auto;
+	padding: 1rem;
+	/*border: dashed;*/
+}
+
+
+img{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+
+
+/*
+Ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+-----------------------------------------------------------------------------
+flex og rader og bokser og sånt
+*/
+
+.tomboks{
+	height: 2rem;
+}
+
+.tomboks2{
+	width: 30%;
+}
+
+.tomboks3{
+	width: 100%;
+}
+
+.smal{
+	width: 60%;
+	align-self: center;
+}
+
+/*jhafjafjdfajka Under er selve boksene*/
+
+
+.rad{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.boks{
+	position: relative;
+	padding: 1rem;
+}
+
+@media(max-width: 46.24rem){
+	.rad{
+		flex-direction: column;
+		align-items: start;
+}
