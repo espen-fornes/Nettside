@@ -80,12 +80,16 @@ a:hover{
 }
 
 
+
 img{
-	height: 100%;
 	width: 100%;
+	height: auto;
 	display: block;
 }
 
+details{
+	font-size: 1.8rem;
+}
 
 
 /*
@@ -108,8 +112,39 @@ flex og rader og bokser og sånt
 
 .smal{
 	width: 60%;
-	align-self: center;
+	align-self: start;
+	position: relative;
+	padding: 1rem;
 }
+
+.bok{
+	width: 50%;
+	align-self: end;
+	position: relative;
+	padding: 1rem;
+}
+
+
+
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    color: green;
+}
+
+.marquee span {
+    display:inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+}
+
+/* Make it move */
+@keyframes marquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
 
 /*jhafjafjdfajka Under er selve boksene*/
 
@@ -129,5 +164,11 @@ flex og rader og bokser og sånt
 @media(max-width: 46.24rem){
 	.rad{
 		flex-direction: column;
-		align-items: start;
+		align-items: center;
 }
+
+
+
+
+
+
