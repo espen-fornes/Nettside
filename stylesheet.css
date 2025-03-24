@@ -47,13 +47,15 @@ nav{
 	left: 15%;
 	padding: 1rem;
 	width: 8rem;
-	
-	backdrop-filter: blur(0.5rem);
+	background-color: yellow;
+	outline: dashed yellow 0.5rem;
+
+
+	/*backdrop-filter: blur(0.5rem);*/
 	
 	line-height: 170%;
 
-	z-index: 97;
-	
+	z-index: 97;	
 }
 
 nav a{
@@ -64,6 +66,8 @@ nav a{
 
 a:hover{
 	background-color: lavender;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
 }
 
 
