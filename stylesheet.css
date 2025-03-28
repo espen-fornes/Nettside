@@ -8,10 +8,19 @@
 }
 @font-face{
 	font-family: "le-patin-helvete";
-	src: url(Le-patin-helvete.ttf) format(TrueType);
+	src: url(fonter/Le-patin-helvete.ttf) format(TrueType);
 	font-weight: normal;
 }
-
+@font-face{
+	font-family: normalskrift;
+	src: url(fonter/normalschrift.ttf) format(TrueType);
+	font-weight: normal;
+}
+@font-face{
+	font-family: normalskrift;
+	src: url(fonter/normalschrift_B.ttf) format(TrueType);
+	font-weight: bold;
+}
 
 
 *{
@@ -23,7 +32,9 @@ body{
 	background-color: gainsboro;
 	/*background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
 	/*	font-family: abordage,sans-serif;*/
-	font-family: sans-serif;
+	font-family: normalskrift;
+	font-size: 2rem;
+	font-feature-settings: "ss01" on;
 }
 
 
@@ -45,16 +56,16 @@ nav{
 	position: sticky;
 	top:4rem;
 	left: 15%;
-	padding: 1rem;
+	padding: 0.5rem;
 	width: 8rem;
+	line-height: 120%;
+
 	background-color: yellow;
 	outline: dashed yellow 0.5rem;
 
 
-	/*backdrop-filter: blur(0.5rem);*/
-	
-	line-height: 170%;
 
+	/*backdrop-filter: blur(0.5rem);*/
 	z-index: 97;	
 }
 
@@ -62,6 +73,13 @@ nav a{
 	text-decoration: none;
 	padding-top: 0.3rem;
 	padding-bottom: 0.3rem;
+	font-family: normalskrift;
+	font-size: 2rem;
+	font-feature-settings: "ss01" on;
+	color: black;
+	font-weight: normal;
+
+
 }
 
 a:hover{
@@ -81,6 +99,14 @@ a:hover{
 
 
 
+
+
+/*
+Ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+-----------------------------------------------------------------------------
+Elementer
+*/
+
 img{
 	width: 100%;
 	height: auto;
@@ -91,11 +117,15 @@ details{
 	font-size: 1.8rem;
 }
 
+a{
+	font-family: serif;
+	font-size: 1.2rem;
+}
 
 /*
 Ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 -----------------------------------------------------------------------------
-flex og rader og bokser og sånt
+flex og rader og bokser og sånt 
 */
 
 .tomboks{
