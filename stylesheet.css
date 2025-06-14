@@ -33,7 +33,7 @@ body{
 	/*background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
 	/*	font-family: abordage,sans-serif;*/
 	font-family: normalskrift;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-feature-settings: "ss01" on;
 }
 
@@ -60,12 +60,15 @@ nav{
 	width: 8rem;
 	line-height: 120%;
 
-	background-color: yellow;
+	/*background-color: gainsboro;*/
 	outline: dashed yellow 0.5rem;
+	box-shadow:0rem 0rem 2rem 1.7rem yellow inset;
 
 
 
-	/*backdrop-filter: blur(0.5rem);*/
+
+	backdrop-filter: blur(0.5rem);
+
 	z-index: 97;	
 }
 
@@ -98,9 +101,6 @@ a:hover{
 }
 
 
-
-
-
 /*
 Ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 -----------------------------------------------------------------------------
@@ -120,6 +120,30 @@ details{
 a{
 	font-family: serif;
 	font-size: 1.2rem;
+}
+
+iframe{
+	width: auto;
+	height: 30rem;
+	position: relative;
+	border: lightgray ridge	10px;
+}
+
+
+h1{
+	font-size: 2rem;
+	font-family: normalskrift;
+}
+
+h5{
+	font-family: normalskrift;
+	font-size: 1rem;
+	font-weight: normal;
+}
+h6{
+	font-family: serif;
+	font-weight: normal;
+	font-size: 1rem;
 }
 
 /*
@@ -152,6 +176,23 @@ flex og rader og bokser og sånt
 	align-self: end;
 	position: relative;
 	padding: 1rem;
+}
+
+.miniboks{
+	position:relative;
+	padding: 3rem;
+	width: 7%;
+	transition: width 15s;
+
+	
+}
+
+.miniboks:hover{
+	position:relative;
+	padding: 3rem;
+	width: 40%;
+
+	
 }
 
 
@@ -190,6 +231,8 @@ flex og rader og bokser og sånt
 	position: relative;
 	padding: 1rem;
 }
+
+
 
 @media(max-width: 46.24rem){
 	.rad{
