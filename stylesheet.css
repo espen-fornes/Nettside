@@ -100,7 +100,12 @@ a:hover{
 	/*border: dashed;*/
 }
 
-
+.konteiner2{
+	background-color:#5859a7;
+	outline: double 10px #5859a7;
+	outline-offset: -10px;
+	border-top: dotted 10px #e22525;
+}
 /*
 Ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 -----------------------------------------------------------------------------
