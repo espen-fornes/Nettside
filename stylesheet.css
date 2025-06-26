@@ -105,6 +105,7 @@ a:hover{
 	outline: double 10px #5859a7;
 	outline-offset: -10px;
 	border-top: dotted 10px #e22525;
+
 }
 /*
 Ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
@@ -144,12 +145,19 @@ h5{
 	font-family: normalskrift;
 	font-size: 1rem;
 	font-weight: normal;
+	color:#e22525;
 }
 h6{
 	font-family: serif;
 	font-weight: normal;
 	font-size: 1rem;
 }
+
+figure{
+	font-family: serif;
+}
+
+
 
 /*
 Ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
@@ -187,8 +195,10 @@ flex og rader og bokser og sånt
 	position:relative;
 	padding: 3rem;
 	width: 7%;
-	transition: width 15s;
-
+	color:#5859a7;
+	font-size: 0.25rem;
+	transition: width 17s, color, font-size 17s;
+	
 	
 }
 
@@ -196,7 +206,8 @@ flex og rader og bokser og sånt
 	position:relative;
 	padding: 3rem;
 	width: 40%;
-
+	color:gainsboro;
+	font-size: 1.5rem;
 	
 }
 
@@ -243,6 +254,12 @@ flex og rader og bokser og sånt
 	.rad{
 		flex-direction: column;
 		align-items: center;
+
+	.miniboks{
+		width: 30%;
+	
+
+	
 }
 
 
