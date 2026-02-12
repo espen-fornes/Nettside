@@ -49,6 +49,32 @@ body{
 /*
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
+Scrollmeny
+*/
+
+div.scrollmenu {
+  background-color: pink;
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: slateblue;
+  text-align: center;
+  padding: 2rem;
+  width: 10rem;
+  height: 15rem;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: orangered;
+}
+
+/*
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 elementer som divs
 */
 
@@ -261,6 +287,10 @@ flex og rader og bokser og sånt
 
 	
 }
+
+
+
+
 
 
 
