@@ -1,28 +1,28 @@
 @font-face{
-	font-family: "erikatype";
-	src: url(fonter/erikatype.ttf) format(TrueType);
+	font-family:"erikatype";
+	src: url(fonter/ErikaType.ttf) format(TrueType);
 	font-weight: normal;
 	}
 
 @font-face{
-	font-family: normalskrift;
+	font-family:normalskrift;
 	src: url(fonter/normalschrift.ttf) format(TrueType);
 	font-weight: normal;
 	}
 
 @font-face{
-	font-family: normalskrift;
+	font-family:normalskrift;
 	src: url(fonter/normalschrift_B.ttf) format(TrueType);
 	font-weight: bold;
 	}
 
 @font-face{
-	font-family: inclusive;
+	font-family:inclusive;
 	src: url(fonter/inclusive.ttf) format(TrueType);
 	font-weight: normal;
 	}
 @font-face{
-	font-family: inclusive;
+	font-family:inclusive;
 	src: url(fonter/inclusive-italic.ttf) format(TrueType);
 	font-weight: normal ;
 	font-style: italic;
