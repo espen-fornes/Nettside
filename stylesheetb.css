@@ -1,0 +1,196 @@
+@font-face{
+	font-family: "erikatype";
+	src: url(fonter/erikatype.ttf) format(TrueType);
+	font-weight: normal;
+	}
+
+@font-face{
+	font-family: normalskrift;
+	src: url(fonter/normalschrift.ttf) format(TrueType);
+	font-weight: normal;
+	}
+
+@font-face{
+	font-family: normalskrift;
+	src: url(fonter/normalschrift_B.ttf) format(TrueType);
+	font-weight: bold;
+	}
+
+@font-face{
+	font-family: inclusive;
+	src: url(fonter/inclusive.ttf) format(TrueType);
+	font-weight: normal;
+	}
+@font-face{
+	font-family: inclusive;
+	src: url(fonter/inclusive-italic.ttf) format(TrueType);
+	font-weight: normal ;
+	font-style: italic;
+	}
+
+
+
+/*🟩🟩🟩🟩body🟩🟩🟩🟩*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-color: gainsboro;
+
+	font-family:erikatype,inclusive, sans-serif;
+	font-size: 1rem;
+	font-feature-settings: "ss01" on;
+}
+
+
+
+
+
+/*🟨🟨🟨🟨Unike greier🟨🟨🟨🟨*/
+
+#underkonstruksjon{
+	font-size: 0.8rem;
+	font-family: inclusive;
+	background-color: yellow;
+	color: darkorange;
+	text-align: center;
+
+	padding: 1rem;
+	outline: ridge 10px gold;
+
+
+
+}
+
+
+
+/*🟪🟪🟪🟪FLEXBOKS🟪🟪🟪🟪*/
+
+.rad{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	}
+
+.boks{
+	position: relative;
+	padding: 1rem;
+	}
+
+
+/*🟣🟣🟣🟣FLEXBOKS SCROLL🟣🟣🟣🟣*/
+	
+
+
+.rad-scroll{
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	}
+
+.boks-scroll{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 5rem;
+	padding-top: 0rem;
+	height: 32rem;
+	}
+.boks-scroll-tom{
+	padding-left: 5rem;
+	padding-bottom: 5rem;
+	padding-top: 0rem;
+	height: 32rem;
+	
+}
+
+/*🟣🟣🏳️‍🌈🏳️‍🌈Farger🏳️‍🌈🏳️‍🌈🟣🟣*/
+
+#rosa{
+	background-color: pink;
+	height: 10rem;
+	}
+#sort{
+	background-color: black;
+	color: gainsboro;
+	}
+#blaa{
+	background-color: #5859A7;
+	color: white;
+	}
+
+#pil-rosa{
+	background-color: pink;
+	border-top: 5px dashed #5859A7;
+	text-align: right;
+	padding: 0.7rem;
+	padding-right: 3rem;
+	}
+
+#pil-sort{
+	background-color: black;
+	text-align: right;
+	color: pink;
+	padding: 0.7rem;
+	padding-right: 3rem;
+	}
+
+#pil-blaa{
+	outline: double 10px #5859A7;
+	outline-offset: -10px;
+	border-top: dotted 10px orangered;
+
+	background-color: #5859A7;
+	
+	text-align: right;
+	color: white;
+	padding: 0.7rem;
+	padding-right: 3rem;
+	}
+
+
+/*🟣🟣Unike greier scroll🟣🟣*/
+
+/* ⭐️ til scrollboks */
+img.liten{
+	height: 60%;
+	width: auto;
+	}
+
+p.tekst-scroll{
+	width: 25rem;
+	height: auto;
+	}
+
+p.tekst-scroll-2{
+	width: 16rem;
+	height: auto;
+	}
+
+
+/*🟥🟥🟥🟥Elementer🟥🟥🟥🟥*/
+
+
+
+img{
+	width: auto;
+	height: 100%;
+	display: block;
+
+	border: solid 1px black;
+	}
+
+
+@media(max-width: 46.24rem){
+	.rad{
+		flex-direction: column;
+		align-items: center;
+
+	
+}
+
