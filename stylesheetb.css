@@ -61,9 +61,12 @@ body{
 
 	padding: 1rem;
 	outline: ridge 10px gold;
+}
 
-
-
+#sistoppdatert{
+	background-color:lightgray;
+	color: green;
+	border:ridge 10px lightgray;
 }
 
 
@@ -184,6 +187,14 @@ img{
 
 	border: solid 1px black;
 	}
+
+a:hover{
+	background-color: yellow;
+}
+
+
+
+
 
 
 @media(max-width: 46.24rem){
