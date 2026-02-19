@@ -35,16 +35,18 @@
 *{
 	margin: 0;
 	padding: 0;
-}
+	}
 
 
 body{
-	background-color: gainsboro;
 
 	font-family:erikatype,inclusive, sans-serif;
 	font-size: 1rem;
 	font-feature-settings: "ss01" on;
-}
+	}
+
+
+
 
 
 
@@ -61,13 +63,97 @@ body{
 
 	padding: 1rem;
 	outline: ridge 10px gold;
-}
+	}
 
 #sistoppdatert{
 	background-color:lightgray;
 	color: green;
 	border:ridge 10px lightgray;
-}
+	}
+
+#bord{
+	/*
+	border-top: dotted 10px greenyellow;
+	outline: double 10px indianred;
+	outline-offset: -10px;
+	background-color: indianred;
+	height: 1rem;
+	*/
+
+
+	}
+	
+
+
+
+/*🏳️‍🌈🏳️‍🌈🏳️‍🌈🏳️‍🌈Farger🏳️‍🌈🏳️‍🌈🏳️‍🌈🏳️‍🌈*/
+
+.rosa{
+	background-color: pink;
+	height: 10rem;
+	}
+.sort{
+	background-color: black;
+	color: gainsboro;
+	}
+.blaa{
+	background-color: #5859A7;
+	color: white;
+	}
+.gronn{
+	background-color: green;
+	color: white;
+	}
+
+.gainsboro{
+	background-color: gainsboro;
+	}
+.hotpink{
+	background-color: hotpink;
+	}
+.lightblue{
+	background-color: lightblue;
+	}
+.lavender{
+	background-color: lavender;
+	}
+.indianred{
+	background-color: indianred;
+	border: ridge 10px indianred;
+
+	}
+
+
+.pil-rosa{
+	background-color: pink;
+	border-top: 5px dashed #5859A7;
+	text-align: right;
+	padding: 0.7rem;
+	padding-right: 3rem;
+	}
+
+.pil-sort{
+	background-color: black;
+	text-align: right;
+	color: pink;
+	padding: 0.7rem;
+	padding-right: 3rem;
+	}
+
+.pil-blaa{
+	outline: double 10px #5859A7;
+	outline-offset: -10px;
+	border-top: dotted 10px orangered;
+
+	background-color: #5859A7;
+	
+	text-align: right;
+	color: white;
+	padding: 0.7rem;
+	padding-right: 3rem;
+	}
+
+
 
 
 
@@ -110,50 +196,6 @@ body{
 	padding-top: 0rem;
 	height: 32rem;
 	
-}
-
-/*🟣🟣🏳️‍🌈🏳️‍🌈Farger🏳️‍🌈🏳️‍🌈🟣🟣*/
-
-#rosa{
-	background-color: pink;
-	height: 10rem;
-	}
-#sort{
-	background-color: black;
-	color: gainsboro;
-	}
-#blaa{
-	background-color: #5859A7;
-	color: white;
-	}
-
-#pil-rosa{
-	background-color: pink;
-	border-top: 5px dashed #5859A7;
-	text-align: right;
-	padding: 0.7rem;
-	padding-right: 3rem;
-	}
-
-#pil-sort{
-	background-color: black;
-	text-align: right;
-	color: pink;
-	padding: 0.7rem;
-	padding-right: 3rem;
-	}
-
-#pil-blaa{
-	outline: double 10px #5859A7;
-	outline-offset: -10px;
-	border-top: dotted 10px orangered;
-
-	background-color: #5859A7;
-	
-	text-align: right;
-	color: white;
-	padding: 0.7rem;
-	padding-right: 3rem;
 	}
 
 
@@ -190,7 +232,7 @@ img{
 
 a:hover{
 	background-color: yellow;
-}
+	}
 
 
 
@@ -203,5 +245,5 @@ a:hover{
 		align-items: center;
 
 	
-}
+	}
 
