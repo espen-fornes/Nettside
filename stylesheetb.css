@@ -71,26 +71,37 @@ body{
 	border:ridge 10px lightgray;
 	}
 
-#bord{
-	/*
-	border-top: dotted 10px greenyellow;
-	outline: double 10px indianred;
-	outline-offset: -10px;
-	background-color: indianred;
-	height: 1rem;
-	*/
+#minevenner{
+	background-color: pink;
+	outline:dotted 10px pink; 
+	outline-offset: -5px;
+	border: dotted 10px lavender;
 
+
+	padding: 2rem;
 
 	}
-	
 
+#bralinker{
+	border: inset 7px gainsboro;
+	background-color: lightgray;
+	outline: solid 2px lightgray;
+
+	color: darkslategray;
+
+	padding: 2rem;
+	width: 40%;
+	}
+	
+.indent{
+	margin-left: 1rem;
+	}
 
 
 /*🏳️‍🌈🏳️‍🌈🏳️‍🌈🏳️‍🌈Farger🏳️‍🌈🏳️‍🌈🏳️‍🌈🏳️‍🌈*/
 
 .rosa{
 	background-color: pink;
-	height: 10rem;
 	}
 .sort{
 	background-color: black;
@@ -120,6 +131,7 @@ body{
 .indianred{
 	background-color: indianred;
 	border: ridge 10px indianred;
+	color: yellow;
 
 	}
 
@@ -169,6 +181,8 @@ body{
 .boks{
 	position: relative;
 	padding: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 	}
 
 
